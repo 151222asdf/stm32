@@ -40,5 +40,6 @@ opi_fpga\fpgafifodata.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 opi_fpga\fpgafifodata.o: ..\MyApplication\System.h
 opi_fpga\fpgafifodata.o: ..\MyApplication\Public.h
 opi_fpga\fpgafifodata.o: ..\MyApplication\MyInit.h
-opi_fpga\fpgafifodata.o: ..\MyApplication\LED.h
 opi_fpga\fpgafifodata.o: ..\MyApplication\MyApplication.h
+opi_fpga\fpgafifodata.o: ..\MyApplication\LED.h
+opi_fpga\fpgafifodata.o: ..\MyApplication\OscDefine.h

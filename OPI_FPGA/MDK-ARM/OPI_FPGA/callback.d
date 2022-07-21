@@ -37,7 +37,8 @@ opi_fpga\callback.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 opi_fpga\callback.o: ..\MyApplication\System.h
 opi_fpga\callback.o: ..\MyApplication\Public.h
 opi_fpga\callback.o: ..\MyApplication\MyInit.h
-opi_fpga\callback.o: ..\MyApplication\LED.h
 opi_fpga\callback.o: ..\MyApplication\MyApplication.h
+opi_fpga\callback.o: ..\MyApplication\LED.h
 opi_fpga\callback.o: ..\MyApplication\FpgaFifoData.h
 opi_fpga\callback.o: ..\MyApplication\FpgaSPI.h
+opi_fpga\callback.o: ..\MyApplication\OscDefine.h

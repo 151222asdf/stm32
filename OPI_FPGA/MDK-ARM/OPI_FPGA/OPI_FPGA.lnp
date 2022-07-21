@@ -27,7 +27,6 @@
 "opi_fpga\system.o"
 "opi_fpga\callback.o"
 "opi_fpga\led.o"
-"opi_fpga\a_spi.o"
 "opi_fpga\fpgafifodata.o"
 "opi_fpga\fpgaspi.o"
 --library_type=microlib --strict --scatter "OPI_FPGA\OPI_FPGA.sct"

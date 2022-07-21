@@ -45,7 +45,7 @@ uint32_t MCU_Read_From_FPGA(void) {
     READ_FIFO_SCLK_Clear;
     READ_FIFO_SCLK_Set;
     fifo_data = SPI_Rece_Cmd_Data(FPGA_CHANNEL_WAVE_RECEIVE);
-//    printf("%d\n", fifo_data);
+//  printf("%d\r\n", fifo_data);
     READ_FIFO_SCLK_Clear;
     READ_FIFO_SCLK_Set;
 #if USE_OS_WITH_FPGA_STM32

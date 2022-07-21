@@ -21,13 +21,22 @@ Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.8.0
 Dialog DLL:      TCM.DLL V1.48.0.0
  
 <h2>Project:</h2>
-E:\MAT_32\OPI_FPGA\MDK-ARM\OPI_FPGA.uvprojx
-Project File Date:  07/20/2022
+D:\GITSEX\stm32\OPI_FPGA\MDK-ARM\OPI_FPGA.uvprojx
+Project File Date:  07/21/2022
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'E:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'OPI_FPGA'
-"OPI_FPGA\OPI_FPGA.axf" - 0 Error(s), 0 Warning(s).
+compiling Public.c...
+..\MyApplication\FpgaSPI.h(96): warning:  #1295-D: Deprecated declaration GPIO_SPI_Configuration - give arg types
+  static void GPIO_SPI_Configuration();
+..\MyApplication\FpgaSPI.h(98): warning:  #1295-D: Deprecated declaration SPI_Configuration - give arg types
+  void     SPI_Configuration();
+..\MyApplication\Public.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=5324 RO-data=448 RW-data=40 ZI-data=5192  
+FromELF: creating hex file...
+"OPI_FPGA\OPI_FPGA.axf" - 0 Error(s), 2 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -51,7 +60,7 @@ Package Vendor: Keil
 
    * Component: ARM::CMSIS:CORE:5.4.0
       Include file:  CMSIS\Core\Include\tz_context.h
-Build Time Elapsed:  00:00:00
+Build Time Elapsed:  00:00:02
 </pre>
 </body>
 </html>

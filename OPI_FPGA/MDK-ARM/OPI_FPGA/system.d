@@ -37,7 +37,8 @@ opi_fpga\system.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 opi_fpga\system.o: ..\MyApplication\System.h
 opi_fpga\system.o: ..\MyApplication\Public.h
 opi_fpga\system.o: ..\MyApplication\MyInit.h
-opi_fpga\system.o: ..\MyApplication\LED.h
 opi_fpga\system.o: ..\MyApplication\MyApplication.h
+opi_fpga\system.o: ..\MyApplication\LED.h
 opi_fpga\system.o: ..\MyApplication\FpgaFifoData.h
 opi_fpga\system.o: ..\MyApplication\FpgaSPI.h
+opi_fpga\system.o: ..\MyApplication\OscDefine.h

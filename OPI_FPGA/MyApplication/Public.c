@@ -19,7 +19,6 @@ int fputc(int ch,FILE* f)
 {
 	//通过查询的方式循环发送
 	HAL_UART_Transmit(&huart_debug, (uint8_t *)&ch, 1, 0x000A);
-
 	return ch;
 }
 

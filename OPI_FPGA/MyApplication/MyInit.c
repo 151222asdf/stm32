@@ -2,7 +2,7 @@
 #include "MyApplication.h"
 
 /* Private define-------------------------------------------------------------*/
-
+uint16_t FPGA_ADC[2048]={0};
 /* Private variables----------------------------------------------------------*/
 static void Peripheral_Set(void); 
 
@@ -23,11 +23,11 @@ MyInit_t MyInit =
 */
 static void Peripheral_Set()
 {
-	printf("----此程序实现串口打印功能----\r\n");
-	printf("Initialization completed, system startup!\r\n");
-	printf("Software version is V%.1f\r\n\r\n",SoftWare_Version);
-	
-	printf("开始运行有限状态机:\r\n\r\n");
+		printf("开始测试\r\n");
+    /** SPI通信初始化 **/
+    SPI_Configuration();
+    /** FIFO通信初始化 **/
+    Read_From_FPGA_GPIO_Init();
 }
 
 /********************************************************

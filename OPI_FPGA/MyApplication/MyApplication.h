@@ -15,7 +15,7 @@
 #include "LED.h"
 #include "FpgaFifoData.h"
 #include "FpgaSPI.h"
-
+#include "OscDefine.h"
 #endif
 /********************************************************
   End Of File

@@ -92,11 +92,11 @@
 #endif
 
 /************************** 函数声明 **************************/
-/************* FpgaSPI IO配置 *************/
+/*************FpgaSPI IO配置*************/
 static void GPIO_SPI_Configuration();
 /************* FpgaSPI 配置 *************/
 void     SPI_Configuration();
-/************* SPI读写函数 *************/
+/************* SPI读写函数 **************/
 void     SPI_Send_Data(uint32_t Send_Data);
 void     SPI_Send_Cmd(uint8_t Send_Data);
 uint32_t SPI_Rece_Data(void);
