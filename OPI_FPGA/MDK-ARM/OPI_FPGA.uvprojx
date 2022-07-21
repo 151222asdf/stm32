@@ -553,6 +553,11 @@
               <FileType>1</FileType>
               <FilePath>..\MyApplication\FpgaSPI.c</FilePath>
             </File>
+            <File>
+              <FileName>MATLAB.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MyApplication\MATLAB.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

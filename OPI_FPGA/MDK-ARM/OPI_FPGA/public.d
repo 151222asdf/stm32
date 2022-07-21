@@ -42,3 +42,4 @@ opi_fpga\public.o: ..\MyApplication\LED.h
 opi_fpga\public.o: ..\MyApplication\FpgaFifoData.h
 opi_fpga\public.o: ..\MyApplication\FpgaSPI.h
 opi_fpga\public.o: ..\MyApplication\OscDefine.h
+opi_fpga\public.o: ..\MyApplication\MATLAB.h

@@ -16,6 +16,7 @@
 #include "FpgaFifoData.h"
 #include "FpgaSPI.h"
 #include "OscDefine.h"
+#include "MATLAB.h"
 #endif
 /********************************************************
   End Of File

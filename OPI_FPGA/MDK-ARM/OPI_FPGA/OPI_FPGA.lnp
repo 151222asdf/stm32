@@ -29,6 +29,7 @@
 "opi_fpga\led.o"
 "opi_fpga\fpgafifodata.o"
 "opi_fpga\fpgaspi.o"
+"opi_fpga\matlab.o"
 --library_type=microlib --strict --scatter "OPI_FPGA\OPI_FPGA.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

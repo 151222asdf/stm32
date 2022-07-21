@@ -42,3 +42,4 @@ opi_fpga\callback.o: ..\MyApplication\LED.h
 opi_fpga\callback.o: ..\MyApplication\FpgaFifoData.h
 opi_fpga\callback.o: ..\MyApplication\FpgaSPI.h
 opi_fpga\callback.o: ..\MyApplication\OscDefine.h
+opi_fpga\callback.o: ..\MyApplication\MATLAB.h

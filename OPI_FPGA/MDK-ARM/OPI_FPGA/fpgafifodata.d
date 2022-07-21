@@ -43,3 +43,4 @@ opi_fpga\fpgafifodata.o: ..\MyApplication\MyInit.h
 opi_fpga\fpgafifodata.o: ..\MyApplication\MyApplication.h
 opi_fpga\fpgafifodata.o: ..\MyApplication\LED.h
 opi_fpga\fpgafifodata.o: ..\MyApplication\OscDefine.h
+opi_fpga\fpgafifodata.o: ..\MyApplication\MATLAB.h

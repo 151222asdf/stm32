@@ -17,7 +17,17 @@ System_t System =
 };
 
 /* Private function prototypes------------------------------------------------*/      
-
+union
+{
+ 
+  struct
+  {
+    uint8_t com[4];
+  }ComInfo;
+	
+	float data;
+	
+}D_data;
 /*
 	* @name   Run
 	* @brief  系统运行
@@ -26,6 +36,8 @@ System_t System =
 */
 static void Run()
 {
+		/*******打开串口中断用以接受数据***********/
+		HAL_UART_Receive_IT(&huart1,(uint8_t*)RxBuffer,1);
     /*******发送采样率***********/
     SPI_Send_Cmd_Data(FPGA_CHANNEL_SMAP,4);
     /*******发送采样点数*********/
@@ -56,7 +68,19 @@ static void Run()
 		for(int i=0;i<1024;i++)
 		{
 			FPGA_ADC[i]=(uint16_t)MCU_Read_From_FPGA()*2;
-			printf("line=%d\r\n",FPGA_ADC[i]);
+			//printf("line=%d\r\n",FPGA_ADC[i]);
+			input[i]=FPGA_ADC[i]*3.3/255;
+		}
+		/******波形数据上传*******/
+		if(RxBuffer[0]==100)
+		{
+			for(int i=0;i<1024;i++)
+			{
+				D_data.data=input[i];//将数据赋给共同体
+				HAL_UART_Transmit(&huart1,D_data.ComInfo.com, 4, 0xffff);//将4个字节发送出去
+				HAL_Delay(5);
+			}
+			RxBuffer[0]=1;// 清空标志位			
 		}
 }
 
