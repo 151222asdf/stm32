@@ -17,7 +17,7 @@ extern "C" {
 /*********************
  *      INCLUDES
  *********************/
-#include "lvgl.h"
+#include "lvgl/lvgl.h"
 
 /*********************
  *      DEFINES
@@ -30,11 +30,12 @@ extern "C" {
 /**********************
  * GLOBAL PROTOTYPES
  **********************/
+void lv_port_indev_init(void);
 
 /**********************
  *      MACROS
  **********************/
-void lv_port_indev_init(void);
+
 #ifdef __cplusplus
 } /*extern "C"*/
 #endif

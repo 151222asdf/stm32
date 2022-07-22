@@ -64,6 +64,7 @@ extern OscScreen_t  OscScreen;
 void OscChartCallBack(lv_event_t* e);
 static void OscChartVarInit();
 void OscMainInterface();
+void TEXT1258(void);	
 #ifdef __cplusplus
 } /* extern "C" */
 #endif

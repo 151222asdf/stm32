@@ -24,8 +24,9 @@ System_t System =
 	* @retval None      
 */
 static void Run()
-{
+{            
 //	ETaskDataShowEntry();
+	TEXT1258();
 }
 
 /*

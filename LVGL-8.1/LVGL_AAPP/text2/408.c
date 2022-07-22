@@ -25,7 +25,7 @@ static void OscChartVarInit() {
     OscScreen.Chart.pointCnt = 500;
     OscScreen.Chart.updateMode = LV_CHART_UPDATE_MODE_SHIFT;
     OscScreen.Chart.axis.x = 100;
-    OscScreen.Chart.axis.y = 4096;
+    OscScreen.Chart.axis.y = 4095;
     OscScreen.Chart.width = 230;
     OscScreen.Chart.height = 190;
 }
@@ -126,7 +126,20 @@ void OscMainInterface()
     lv_obj_add_event_cb(OscScreen.btnRS, rsBtnCallback, LV_EVENT_CLICKED, NULL);
     lv_obj_add_event_cb(OscScreen.btnDAC, dacBtnCallback, LV_EVENT_CLICKED, NULL);
     /****************************样式初始化****************************/
+}
 
+/**
+  * @brief  数据显示 波形、频谱、参数
+  * @note   None
+  * @param  None
+  * @retval None
+  */
+void TEXT1258(void) {
+            for (int i = 0; i < 9032; i++) {
+                lv_chart_set_next_value(OscScreen.Chart.obj, OscScreen.Chart.waveSeries, i % 100);
+                lv_chart_refresh(OscScreen.Chart.obj);
+            }
+        lv_chart_set_all_value(OscScreen.Chart.obj, OscScreen.Chart.waveSeries, 50);
 }
 
 

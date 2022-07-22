@@ -178,9 +178,9 @@ text1\public.o: ../LVGL_GUI/src/../src/extra/libs/freetype/lv_freetype.h
 text1\public.o: ../LVGL_GUI/src/../src/extra/libs/rlottie/lv_rlottie.h
 text1\public.o: ../LVGL_GUI/examples/porting/lv_port_disp.h
 text1\public.o: ../LVGL_GUI/examples/porting/lv_port_indev_template.h
+text1\public.o: ../LVGL_GUI/lvgl/lvgl.h
 text1\public.o: ../LVGL_AAPP/test/test.h
 text1\public.o: ..\LVGL_AAPP\text2\408.h
-text1\public.o: ../LVGL_GUI/lvgl/lvgl.h
 text1\public.o: ..\LVGL_AAPP\text2\OscStyle.h
 text1\public.o: ..\LVGL_AAPP\text2\408.h
 text1\public.o: ..\LVGL_AAPP\text2\C.h

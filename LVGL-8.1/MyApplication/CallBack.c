@@ -23,6 +23,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 		{
 			Timer6.usMCU_Run_Timer = 0;//记录循环次数
 			lv_tick_inc(10);			// 这个函数设置心跳，参数1代表1ms。通常将他放在1毫秒中断一次的定时器中断处理中
+			tp_dev.scan(10);
 			lv_task_handler();		// 这个函数用来处理LVGL的工作，每心跳一次，这里面就执行一次。
 			LED.LED_Flip(LED1);
 		}

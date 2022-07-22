@@ -10,7 +10,8 @@
  *      INCLUDES
  *********************/
 #include "lv_port_indev_template.h"
-#include "../../lvgl.h"
+#include "lvgl/lvgl.h"
+#include "touch.h"
 
 /*********************
  *      DEFINES
@@ -95,12 +96,12 @@ void lv_port_indev_init(void)
     indev_drv.type = LV_INDEV_TYPE_POINTER;
     indev_drv.read_cb = touchpad_read;
     indev_touchpad = lv_indev_drv_register(&indev_drv);
-
+#if     0
     /*------------------
      * Mouse
      * -----------------*/
 
-    /*Initialize your touchpad if you have*/
+    /*Initialize your mouse if you have*/
     mouse_init();
 
     /*Register a mouse input device*/
@@ -169,6 +170,7 @@ void lv_port_indev_init(void)
             {40, 100},  /*Button 1 -> x:40; y:100*/
     };
     lv_indev_set_button_points(indev_button, btn_points);
+#endif
 }
 
 /**********************
@@ -191,7 +193,9 @@ static void touchpad_read(lv_indev_drv_t * indev_drv, lv_indev_data_t * data)
     static lv_coord_t last_x = 0;
     static lv_coord_t last_y = 0;
 
+//        tp_dev.scan(0);
     /*Save the pressed coordinates and the state*/
+    tp_dev.scan(0);
     if(touchpad_is_pressed()) {
         touchpad_get_xy(&last_x, &last_y);
         data->state = LV_INDEV_STATE_PR;
@@ -208,7 +212,9 @@ static void touchpad_read(lv_indev_drv_t * indev_drv, lv_indev_data_t * data)
 static bool touchpad_is_pressed(void)
 {
     /*Your code comes here*/
-
+    if (TP_PRES_DOWN & tp_dev.sta) {
+        return true;
+    }
     return false;
 }
 
@@ -217,8 +223,10 @@ static void touchpad_get_xy(lv_coord_t * x, lv_coord_t * y)
 {
     /*Your code comes here*/
 
-    (*x) = 0;
-    (*y) = 0;
+//    (*x) = 0;
+//    (*y) = 0;
+    (*x) = tp_dev.x[0];
+    (*y) = tp_dev.y[0];
 }
 
 /*------------------
