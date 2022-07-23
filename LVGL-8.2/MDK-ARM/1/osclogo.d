@@ -1,4 +1,4 @@
-1\osclogo.o: ..\..\LVGL-8.3\LVGL_APP\OscLogo.c
+1\osclogo.o: ..\LVGL_APP\OscLogo.c
 1\osclogo.o: ..\LVGL\lvgl.h
 1\osclogo.o: ..\LVGL\src/misc/lv_log.h
 1\osclogo.o: ..\LVGL\src/misc/../lv_conf_internal.h

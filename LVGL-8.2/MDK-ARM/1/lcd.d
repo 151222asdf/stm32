@@ -186,5 +186,4 @@
 1\lcd.o: ..\LVGL_APP\OscInterface.h
 1\lcd.o: ..\LVGL_APP\OscStyle.h
 1\lcd.o: ..\LVGL_APP\OscInterface.h
-1\lcd.o: ..\LVGL_APP\OscDefine.h
 1\lcd.o: ..\TOUCH\font.h

@@ -1,5 +1,5 @@
-1\oscinterface.o: ..\..\LVGL-8.3\LVGL_APP\OscInterface.c
-1\oscinterface.o: ..\..\LVGL-8.3\LVGL_APP\OscInterface.h
+1\oscinterface.o: ..\LVGL_APP\OscInterface.c
+1\oscinterface.o: ..\LVGL_APP\OscInterface.h
 1\oscinterface.o: ..\LVGL\lvgl.h
 1\oscinterface.o: ..\LVGL\src/misc/lv_log.h
 1\oscinterface.o: ..\LVGL\src/misc/../lv_conf_internal.h
@@ -123,5 +123,5 @@
 1\oscinterface.o: ..\LVGL\src/extra/libs/freetype/lv_freetype.h
 1\oscinterface.o: ..\LVGL\src/extra/libs/rlottie/lv_rlottie.h
 1\oscinterface.o: ..\LVGL\src/extra/libs/ffmpeg/lv_ffmpeg.h
-1\oscinterface.o: ..\..\LVGL-8.3\LVGL_APP\OscStyle.h
-1\oscinterface.o: ..\..\LVGL-8.3\LVGL_APP\OscInterface.h
+1\oscinterface.o: ..\LVGL_APP\OscStyle.h
+1\oscinterface.o: ..\LVGL_APP\OscInterface.h

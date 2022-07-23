@@ -186,4 +186,3 @@
 1\callback.o: ..\LVGL_APP\OscInterface.h
 1\callback.o: ..\LVGL_APP\OscStyle.h
 1\callback.o: ..\LVGL_APP\OscInterface.h
-1\callback.o: ..\LVGL_APP\OscDefine.h

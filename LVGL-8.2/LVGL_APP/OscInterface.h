@@ -13,26 +13,17 @@
 #include "lvgl.h"
 #include "OscStyle.h"
 
-/*******************颜色宏定义*******************/
 #define OSC_COLOR_BLACK                 0X373737
 #define OSC_COLOR_YELLOW                0Xffff00
 #define OSC_COLOR_GREEN_LIGHT           0X59A869
 #define OSC_COLOR_BLUE_LIGHT            0X40b6e0
 #define OSC_COLOR_PINK_LIGHT            0Xf6b4c0
 #define OSC_COLOR_RED_DEEP              0X993300
-/*******************示波器枚举变量*******************/
-enum {
-    /*****第一次也代表按键最初值*****/
-    OSC_BTN_FIRST_PRESSED    = 0u,
-    OSC_BTN_SECOND_PRESSED   = 1u,
-    OSC_BTN_THIRD_PRESSED    = 2u,
-    OSC_BTN_FOURTH_PRESSED   = 3u,
-};
 
 typedef struct {
     lv_obj_t                *obj;
-    uint16_t                 hDiv;
-    uint16_t                 vDiv;
+    uint16_t                 hdiv;
+    uint16_t                 vdiv;
     lv_chart_series_t       *spectrumSeries;
     lv_chart_series_t       *waveSeries;
     lv_coord_t               pointCnt;
@@ -50,16 +41,16 @@ typedef struct {
     /** 按键 **/
     lv_obj_t           *btnVer;
     lv_obj_t           *btnHor;
-    lv_obj_t           *btnTriAdd;
-    lv_obj_t           *btnTriSub;
-    lv_obj_t           *btnSave;
+    lv_obj_t           *btnTri;
+    lv_obj_t           *btnRS;
+    lv_obj_t           *btnDAC;
 
     /** 按键标签 **/
     lv_obj_t           *labelVerBtn;
     lv_obj_t           *labelHorBtn;
-    lv_obj_t           *labelTriAddBtn;     /** 触发等级加 **/
-    lv_obj_t           *labelTriSubBtn;     /** 触发等级减 **/
-    lv_obj_t           *labelSaveBtn;
+    lv_obj_t           *labelTriBtn;
+    lv_obj_t           *labelRSBtn;
+    lv_obj_t           *labelDACBtn;
 
     /** 数值标签 **/
     lv_obj_t           *labelFre;
@@ -71,13 +62,15 @@ typedef struct {
 }OscScreen_t;
 
 /***************标签数据***************/
-extern double     dataFreLabelDouble;
-extern double     dataFreLabelDouble;
-extern uint16_t   dataTriggerInt;
+extern double dataFreLabelDouble;
+extern double dataFreLabelDouble;
+extern int    dataTriggerInt;
 
 extern OscScreen_t  OscScreen;
 
 /***************函数声明***************/
 void OscChartCallBack(lv_event_t * e);
+static void OscChartVarInit();
 void OscMainInterface();
+void TEXT1258();
 #endif //FINALLYOSCILLOSCOPE_OSCINTERFACE_H

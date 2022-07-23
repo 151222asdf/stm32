@@ -2778,47 +2778,42 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>LVGLAPP</GroupName>
+          <GroupName>LVGL_APP</GroupName>
           <Files>
             <File>
               <FileName>OscBtnCallBack.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\LVGL-8.3\LVGL_APP\OscBtnCallBack.c</FilePath>
+              <FilePath>..\LVGL_APP\OscBtnCallBack.c</FilePath>
             </File>
             <File>
               <FileName>OscChartCallBack.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\LVGL-8.3\LVGL_APP\OscChartCallBack.c</FilePath>
-            </File>
-            <File>
-              <FileName>OscDefine.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\..\LVGL-8.3\LVGL_APP\OscDefine.h</FilePath>
+              <FilePath>..\LVGL_APP\OscChartCallBack.c</FilePath>
             </File>
             <File>
               <FileName>OscInterface.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\LVGL-8.3\LVGL_APP\OscInterface.c</FilePath>
+              <FilePath>..\LVGL_APP\OscInterface.c</FilePath>
             </File>
             <File>
               <FileName>OscInterface.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\..\LVGL-8.3\LVGL_APP\OscInterface.h</FilePath>
+              <FilePath>..\LVGL_APP\OscInterface.h</FilePath>
             </File>
             <File>
               <FileName>OscLogo.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\LVGL-8.3\LVGL_APP\OscLogo.c</FilePath>
+              <FilePath>..\LVGL_APP\OscLogo.c</FilePath>
             </File>
             <File>
               <FileName>OscStyle.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\LVGL-8.3\LVGL_APP\OscStyle.c</FilePath>
+              <FilePath>..\LVGL_APP\OscStyle.c</FilePath>
             </File>
             <File>
               <FileName>OscStyle.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\..\LVGL-8.3\LVGL_APP\OscStyle.h</FilePath>
+              <FilePath>..\LVGL_APP\OscStyle.h</FilePath>
             </File>
           </Files>
         </Group>

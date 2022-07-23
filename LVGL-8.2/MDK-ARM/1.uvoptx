@@ -2630,7 +2630,7 @@
   </Group>
 
   <Group>
-    <GroupName>LVGLAPP</GroupName>
+    <GroupName>LVGL_APP</GroupName>
     <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
@@ -2642,7 +2642,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\LVGL-8.3\LVGL_APP\OscBtnCallBack.c</PathWithFileName>
+      <PathWithFileName>..\LVGL_APP\OscBtnCallBack.c</PathWithFileName>
       <FilenameWithoutPath>OscBtnCallBack.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2654,7 +2654,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\LVGL-8.3\LVGL_APP\OscChartCallBack.c</PathWithFileName>
+      <PathWithFileName>..\LVGL_APP\OscChartCallBack.c</PathWithFileName>
       <FilenameWithoutPath>OscChartCallBack.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -2662,36 +2662,36 @@
     <File>
       <GroupNumber>10</GroupNumber>
       <FileNumber>201</FileNumber>
-      <FileType>5</FileType>
-      <tvExp>0</tvExp>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <bDave2>0</bDave2>
-      <PathWithFileName>..\..\LVGL-8.3\LVGL_APP\OscDefine.h</PathWithFileName>
-      <FilenameWithoutPath>OscDefine.h</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
-    <File>
-      <GroupNumber>10</GroupNumber>
-      <FileNumber>202</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\LVGL-8.3\LVGL_APP\OscInterface.c</PathWithFileName>
+      <PathWithFileName>..\LVGL_APP\OscInterface.c</PathWithFileName>
       <FilenameWithoutPath>OscInterface.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
     <File>
       <GroupNumber>10</GroupNumber>
-      <FileNumber>203</FileNumber>
+      <FileNumber>202</FileNumber>
       <FileType>5</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\LVGL-8.3\LVGL_APP\OscInterface.h</PathWithFileName>
+      <PathWithFileName>..\LVGL_APP\OscInterface.h</PathWithFileName>
       <FilenameWithoutPath>OscInterface.h</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>10</GroupNumber>
+      <FileNumber>203</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\LVGL_APP\OscLogo.c</PathWithFileName>
+      <FilenameWithoutPath>OscLogo.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -2702,31 +2702,19 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\LVGL-8.3\LVGL_APP\OscLogo.c</PathWithFileName>
-      <FilenameWithoutPath>OscLogo.c</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
-    <File>
-      <GroupNumber>10</GroupNumber>
-      <FileNumber>205</FileNumber>
-      <FileType>1</FileType>
-      <tvExp>0</tvExp>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <bDave2>0</bDave2>
-      <PathWithFileName>..\..\LVGL-8.3\LVGL_APP\OscStyle.c</PathWithFileName>
+      <PathWithFileName>..\LVGL_APP\OscStyle.c</PathWithFileName>
       <FilenameWithoutPath>OscStyle.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
     <File>
       <GroupNumber>10</GroupNumber>
-      <FileNumber>206</FileNumber>
+      <FileNumber>205</FileNumber>
       <FileType>5</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\LVGL-8.3\LVGL_APP\OscStyle.h</PathWithFileName>
+      <PathWithFileName>..\LVGL_APP\OscStyle.h</PathWithFileName>
       <FilenameWithoutPath>OscStyle.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>

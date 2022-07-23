@@ -186,4 +186,3 @@
 1\ft5206.o: ..\LVGL_APP\OscInterface.h
 1\ft5206.o: ..\LVGL_APP\OscStyle.h
 1\ft5206.o: ..\LVGL_APP\OscInterface.h
-1\ft5206.o: ..\LVGL_APP\OscDefine.h

@@ -26,6 +26,7 @@ System_t System =
 */
 static void Run() 
 {
+	TEXT1258();
 }
 
 /*

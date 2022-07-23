@@ -42,7 +42,7 @@ I (../Core/Inc/tim.h)(0x62DB19D9)
 I (../Core/Inc/usart.h)(0x62C038B7)
 I (../Core/Inc/gpio.h)(0x62C038B6)
 I (../Core/Inc/fsmc.h)(0x62C038B7)
-I (../MyApplication/MyApplication.h)(0x62DB40DF)
+I (../MyApplication/MyApplication.h)(0x62DB459B)
 I (../SYSTEM/delay.h)(0x58E5F540)
 I (../SYSTEM/sys.h)(0x58E5F532)
 I (../TOUCH/myiic.h)(0x58EF49DE)
@@ -183,9 +183,8 @@ I (..\LVGL\src/extra/libs/rlottie/lv_rlottie.h)(0x61F7D6C6)
 I (..\LVGL\src/extra/libs/ffmpeg/lv_ffmpeg.h)(0x61F7D6C6)
 I (..\LVGL\examples\porting\lv_port_disp.h)(0x62DB3D0A)
 I (..\LVGL\examples\porting\lv_port_indev.h)(0x62DB3D0A)
-I (..\LVGL_APP\OscInterface.h)(0x62D4999D)
-I (..\LVGL_APP\OscStyle.h)(0x62CA9D5C)
-I (..\LVGL_APP\OscDefine.h)(0x62D6D657)
+I (..\LVGL_APP\OscInterface.h)(0x62DB46B6)
+I (..\LVGL_APP\OscStyle.h)(0x62D053DC)
 F (../Core/Src/gpio.c)(0x62C038B6)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../MyApplication -I ../SYSTEM -I ../TOUCH -I ..\LVGL -I ..\LVGL\src -I ..\LVGL\examples\porting -I ..\LVGL_APP --diag_suppress=68 --diag_suppress=188 --diag_suppress=111 --diag_suppress=546 --diag_suppress=177-I.\RTE\_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o 1\gpio.o --omf_browse 1\gpio.crf --depend 1\gpio.d)
 I (../Core/Inc/gpio.h)(0x62C038B6)
 I (../Core/Inc/main.h)(0x60FFC899)
@@ -10653,7 +10652,7 @@ I (..\LVGL\src\extra\../../src/extra/libs/freetype/lv_freetype.h)(0x61F7D6C6)
 I (..\LVGL\src\extra\../../src/extra/libs/rlottie/lv_rlottie.h)(0x61F7D6C6)
 I (..\LVGL\src\extra\../../src/extra/libs/ffmpeg/lv_ffmpeg.h)(0x61F7D6C6)
 F (..\TOUCH\lcd.c)(0x62DAC144)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../MyApplication -I ../SYSTEM -I ../TOUCH -I ..\LVGL -I ..\LVGL\src -I ..\LVGL\examples\porting -I ..\LVGL_APP --diag_suppress=68 --diag_suppress=188 --diag_suppress=111 --diag_suppress=546 --diag_suppress=177-I.\RTE\_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o 1\lcd.o --omf_browse 1\lcd.crf --depend 1\lcd.d)
-I (../MyApplication/MyApplication.h)(0x62DB40DF)
+I (../MyApplication/MyApplication.h)(0x62DB459B)
 I (../Core/Inc/main.h)(0x60FFC899)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x626D8092)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x62DB19DA)
@@ -10834,9 +10833,8 @@ I (..\LVGL\src/extra/libs/rlottie/lv_rlottie.h)(0x61F7D6C6)
 I (..\LVGL\src/extra/libs/ffmpeg/lv_ffmpeg.h)(0x61F7D6C6)
 I (..\LVGL\examples\porting\lv_port_disp.h)(0x62DB3D0A)
 I (..\LVGL\examples\porting\lv_port_indev.h)(0x62DB3D0A)
-I (..\LVGL_APP\OscInterface.h)(0x62D4999D)
-I (..\LVGL_APP\OscStyle.h)(0x62CA9D5C)
-I (..\LVGL_APP\OscDefine.h)(0x62D6D657)
+I (..\LVGL_APP\OscInterface.h)(0x62DB46B6)
+I (..\LVGL_APP\OscStyle.h)(0x62D053DC)
 I (..\TOUCH\font.h)(0x574DA4B3)
 F (..\TOUCH\myiic.c)(0x58EF49DE)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../MyApplication -I ../SYSTEM -I ../TOUCH -I ..\LVGL -I ..\LVGL\src -I ..\LVGL\examples\porting -I ..\LVGL_APP --diag_suppress=68 --diag_suppress=188 --diag_suppress=111 --diag_suppress=546 --diag_suppress=177-I.\RTE\_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o 1\myiic.o --omf_browse 1\myiic.crf --depend 1\myiic.d)
 I (..\TOUCH\myiic.h)(0x58EF49DE)
@@ -10954,7 +10952,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x626D8092)
 I (..\TOUCH\myiic.h)(0x58EF49DE)
 I (../SYSTEM/delay.h)(0x58E5F540)
 F (..\TOUCH\ft5206.c)(0x60FFC152)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../MyApplication -I ../SYSTEM -I ../TOUCH -I ..\LVGL -I ..\LVGL\src -I ..\LVGL\examples\porting -I ..\LVGL_APP --diag_suppress=68 --diag_suppress=188 --diag_suppress=111 --diag_suppress=546 --diag_suppress=177-I.\RTE\_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o 1\ft5206.o --omf_browse 1\ft5206.crf --depend 1\ft5206.d)
-I (../MyApplication/MyApplication.h)(0x62DB40DF)
+I (../MyApplication/MyApplication.h)(0x62DB459B)
 I (../Core/Inc/main.h)(0x60FFC899)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x626D8092)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x62DB19DA)
@@ -11135,11 +11133,10 @@ I (..\LVGL\src/extra/libs/rlottie/lv_rlottie.h)(0x61F7D6C6)
 I (..\LVGL\src/extra/libs/ffmpeg/lv_ffmpeg.h)(0x61F7D6C6)
 I (..\LVGL\examples\porting\lv_port_disp.h)(0x62DB3D0A)
 I (..\LVGL\examples\porting\lv_port_indev.h)(0x62DB3D0A)
-I (..\LVGL_APP\OscInterface.h)(0x62D4999D)
-I (..\LVGL_APP\OscStyle.h)(0x62CA9D5C)
-I (..\LVGL_APP\OscDefine.h)(0x62D6D657)
+I (..\LVGL_APP\OscInterface.h)(0x62DB46B6)
+I (..\LVGL_APP\OscStyle.h)(0x62D053DC)
 F (..\TOUCH\gt9147.c)(0x60FFC152)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../MyApplication -I ../SYSTEM -I ../TOUCH -I ..\LVGL -I ..\LVGL\src -I ..\LVGL\examples\porting -I ..\LVGL_APP --diag_suppress=68 --diag_suppress=188 --diag_suppress=111 --diag_suppress=546 --diag_suppress=177-I.\RTE\_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o 1\gt9147.o --omf_browse 1\gt9147.crf --depend 1\gt9147.d)
-I (../MyApplication/MyApplication.h)(0x62DB40DF)
+I (../MyApplication/MyApplication.h)(0x62DB459B)
 I (../Core/Inc/main.h)(0x60FFC899)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x626D8092)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x62DB19DA)
@@ -11320,11 +11317,10 @@ I (..\LVGL\src/extra/libs/rlottie/lv_rlottie.h)(0x61F7D6C6)
 I (..\LVGL\src/extra/libs/ffmpeg/lv_ffmpeg.h)(0x61F7D6C6)
 I (..\LVGL\examples\porting\lv_port_disp.h)(0x62DB3D0A)
 I (..\LVGL\examples\porting\lv_port_indev.h)(0x62DB3D0A)
-I (..\LVGL_APP\OscInterface.h)(0x62D4999D)
-I (..\LVGL_APP\OscStyle.h)(0x62CA9D5C)
-I (..\LVGL_APP\OscDefine.h)(0x62D6D657)
+I (..\LVGL_APP\OscInterface.h)(0x62DB46B6)
+I (..\LVGL_APP\OscStyle.h)(0x62D053DC)
 F (..\TOUCH\ott2001a.c)(0x60FFC152)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../MyApplication -I ../SYSTEM -I ../TOUCH -I ..\LVGL -I ..\LVGL\src -I ..\LVGL\examples\porting -I ..\LVGL_APP --diag_suppress=68 --diag_suppress=188 --diag_suppress=111 --diag_suppress=546 --diag_suppress=177-I.\RTE\_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o 1\ott2001a.o --omf_browse 1\ott2001a.crf --depend 1\ott2001a.d)
-I (../MyApplication/MyApplication.h)(0x62DB40DF)
+I (../MyApplication/MyApplication.h)(0x62DB459B)
 I (../Core/Inc/main.h)(0x60FFC899)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x626D8092)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x62DB19DA)
@@ -11505,9 +11501,8 @@ I (..\LVGL\src/extra/libs/rlottie/lv_rlottie.h)(0x61F7D6C6)
 I (..\LVGL\src/extra/libs/ffmpeg/lv_ffmpeg.h)(0x61F7D6C6)
 I (..\LVGL\examples\porting\lv_port_disp.h)(0x62DB3D0A)
 I (..\LVGL\examples\porting\lv_port_indev.h)(0x62DB3D0A)
-I (..\LVGL_APP\OscInterface.h)(0x62D4999D)
-I (..\LVGL_APP\OscStyle.h)(0x62CA9D5C)
-I (..\LVGL_APP\OscDefine.h)(0x62D6D657)
+I (..\LVGL_APP\OscInterface.h)(0x62DB46B6)
+I (..\LVGL_APP\OscStyle.h)(0x62D053DC)
 F (..\TOUCH\touch.c)(0x58F0CDD2)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../MyApplication -I ../SYSTEM -I ../TOUCH -I ..\LVGL -I ..\LVGL\src -I ..\LVGL\examples\porting -I ..\LVGL_APP --diag_suppress=68 --diag_suppress=188 --diag_suppress=111 --diag_suppress=546 --diag_suppress=177-I.\RTE\_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o 1\touch.o --omf_browse 1\touch.crf --depend 1\touch.d)
 I (..\TOUCH\touch.h)(0x55571366)
 I (../SYSTEM/sys.h)(0x58E5F532)
@@ -11628,7 +11623,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x626D8092)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x626D8092)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x626D8092)
 F (..\MyApplication\CallBack.c)(0x62DB3FA8)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../MyApplication -I ../SYSTEM -I ../TOUCH -I ..\LVGL -I ..\LVGL\src -I ..\LVGL\examples\porting -I ..\LVGL_APP --diag_suppress=68 --diag_suppress=188 --diag_suppress=111 --diag_suppress=546 --diag_suppress=177-I.\RTE\_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o 1\callback.o --omf_browse 1\callback.crf --depend 1\callback.d)
-I (..\MyApplication\MyApplication.h)(0x62DB40DF)
+I (..\MyApplication\MyApplication.h)(0x62DB459B)
 I (../Core/Inc/main.h)(0x60FFC899)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x626D8092)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x62DB19DA)
@@ -11809,11 +11804,10 @@ I (..\LVGL\src/extra/libs/rlottie/lv_rlottie.h)(0x61F7D6C6)
 I (..\LVGL\src/extra/libs/ffmpeg/lv_ffmpeg.h)(0x61F7D6C6)
 I (..\LVGL\examples\porting\lv_port_disp.h)(0x62DB3D0A)
 I (..\LVGL\examples\porting\lv_port_indev.h)(0x62DB3D0A)
-I (..\LVGL_APP\OscInterface.h)(0x62D4999D)
-I (..\LVGL_APP\OscStyle.h)(0x62CA9D5C)
-I (..\LVGL_APP\OscDefine.h)(0x62D6D657)
+I (..\LVGL_APP\OscInterface.h)(0x62DB46B6)
+I (..\LVGL_APP\OscStyle.h)(0x62D053DC)
 F (..\MyApplication\MyInit.c)(0x62DB4175)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../MyApplication -I ../SYSTEM -I ../TOUCH -I ..\LVGL -I ..\LVGL\src -I ..\LVGL\examples\porting -I ..\LVGL_APP --diag_suppress=68 --diag_suppress=188 --diag_suppress=111 --diag_suppress=546 --diag_suppress=177-I.\RTE\_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o 1\myinit.o --omf_browse 1\myinit.crf --depend 1\myinit.d)
-I (..\MyApplication\MyApplication.h)(0x62DB40DF)
+I (..\MyApplication\MyApplication.h)(0x62DB459B)
 I (../Core/Inc/main.h)(0x60FFC899)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x626D8092)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x62DB19DA)
@@ -11994,11 +11988,10 @@ I (..\LVGL\src/extra/libs/rlottie/lv_rlottie.h)(0x61F7D6C6)
 I (..\LVGL\src/extra/libs/ffmpeg/lv_ffmpeg.h)(0x61F7D6C6)
 I (..\LVGL\examples\porting\lv_port_disp.h)(0x62DB3D0A)
 I (..\LVGL\examples\porting\lv_port_indev.h)(0x62DB3D0A)
-I (..\LVGL_APP\OscInterface.h)(0x62D4999D)
-I (..\LVGL_APP\OscStyle.h)(0x62CA9D5C)
-I (..\LVGL_APP\OscDefine.h)(0x62D6D657)
+I (..\LVGL_APP\OscInterface.h)(0x62DB46B6)
+I (..\LVGL_APP\OscStyle.h)(0x62D053DC)
 F (..\MyApplication\Public.c)(0x60FFB132)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../MyApplication -I ../SYSTEM -I ../TOUCH -I ..\LVGL -I ..\LVGL\src -I ..\LVGL\examples\porting -I ..\LVGL_APP --diag_suppress=68 --diag_suppress=188 --diag_suppress=111 --diag_suppress=546 --diag_suppress=177-I.\RTE\_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o 1\public.o --omf_browse 1\public.crf --depend 1\public.d)
-I (..\MyApplication\MyApplication.h)(0x62DB40DF)
+I (..\MyApplication\MyApplication.h)(0x62DB459B)
 I (../Core/Inc/main.h)(0x60FFC899)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x626D8092)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x62DB19DA)
@@ -12179,11 +12172,10 @@ I (..\LVGL\src/extra/libs/rlottie/lv_rlottie.h)(0x61F7D6C6)
 I (..\LVGL\src/extra/libs/ffmpeg/lv_ffmpeg.h)(0x61F7D6C6)
 I (..\LVGL\examples\porting\lv_port_disp.h)(0x62DB3D0A)
 I (..\LVGL\examples\porting\lv_port_indev.h)(0x62DB3D0A)
-I (..\LVGL_APP\OscInterface.h)(0x62D4999D)
-I (..\LVGL_APP\OscStyle.h)(0x62CA9D5C)
-I (..\LVGL_APP\OscDefine.h)(0x62D6D657)
-F (..\MyApplication\System.c)(0x62DB3323)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../MyApplication -I ../SYSTEM -I ../TOUCH -I ..\LVGL -I ..\LVGL\src -I ..\LVGL\examples\porting -I ..\LVGL_APP --diag_suppress=68 --diag_suppress=188 --diag_suppress=111 --diag_suppress=546 --diag_suppress=177-I.\RTE\_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o 1\system.o --omf_browse 1\system.crf --depend 1\system.d)
-I (..\MyApplication\MyApplication.h)(0x62DB40DF)
+I (..\LVGL_APP\OscInterface.h)(0x62DB46B6)
+I (..\LVGL_APP\OscStyle.h)(0x62D053DC)
+F (..\MyApplication\System.c)(0x62DB46B6)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../MyApplication -I ../SYSTEM -I ../TOUCH -I ..\LVGL -I ..\LVGL\src -I ..\LVGL\examples\porting -I ..\LVGL_APP --diag_suppress=68 --diag_suppress=188 --diag_suppress=111 --diag_suppress=546 --diag_suppress=177-I.\RTE\_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o 1\system.o --omf_browse 1\system.crf --depend 1\system.d)
+I (..\MyApplication\MyApplication.h)(0x62DB459B)
 I (../Core/Inc/main.h)(0x60FFC899)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x626D8092)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x62DB19DA)
@@ -12364,11 +12356,10 @@ I (..\LVGL\src/extra/libs/rlottie/lv_rlottie.h)(0x61F7D6C6)
 I (..\LVGL\src/extra/libs/ffmpeg/lv_ffmpeg.h)(0x61F7D6C6)
 I (..\LVGL\examples\porting\lv_port_disp.h)(0x62DB3D0A)
 I (..\LVGL\examples\porting\lv_port_indev.h)(0x62DB3D0A)
-I (..\LVGL_APP\OscInterface.h)(0x62D4999D)
-I (..\LVGL_APP\OscStyle.h)(0x62CA9D5C)
-I (..\LVGL_APP\OscDefine.h)(0x62D6D657)
+I (..\LVGL_APP\OscInterface.h)(0x62DB46B6)
+I (..\LVGL_APP\OscStyle.h)(0x62D053DC)
 F (..\MyApplication\KEY.c)(0x62DAC144)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../MyApplication -I ../SYSTEM -I ../TOUCH -I ..\LVGL -I ..\LVGL\src -I ..\LVGL\examples\porting -I ..\LVGL_APP --diag_suppress=68 --diag_suppress=188 --diag_suppress=111 --diag_suppress=546 --diag_suppress=177-I.\RTE\_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o 1\key.o --omf_browse 1\key.crf --depend 1\key.d)
-I (..\MyApplication\MyApplication.h)(0x62DB40DF)
+I (..\MyApplication\MyApplication.h)(0x62DB459B)
 I (../Core/Inc/main.h)(0x60FFC899)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x626D8092)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x62DB19DA)
@@ -12549,11 +12540,10 @@ I (..\LVGL\src/extra/libs/rlottie/lv_rlottie.h)(0x61F7D6C6)
 I (..\LVGL\src/extra/libs/ffmpeg/lv_ffmpeg.h)(0x61F7D6C6)
 I (..\LVGL\examples\porting\lv_port_disp.h)(0x62DB3D0A)
 I (..\LVGL\examples\porting\lv_port_indev.h)(0x62DB3D0A)
-I (..\LVGL_APP\OscInterface.h)(0x62D4999D)
-I (..\LVGL_APP\OscStyle.h)(0x62CA9D5C)
-I (..\LVGL_APP\OscDefine.h)(0x62D6D657)
+I (..\LVGL_APP\OscInterface.h)(0x62DB46B6)
+I (..\LVGL_APP\OscStyle.h)(0x62D053DC)
 F (..\MyApplication\LED.c)(0x60FFC152)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../MyApplication -I ../SYSTEM -I ../TOUCH -I ..\LVGL -I ..\LVGL\src -I ..\LVGL\examples\porting -I ..\LVGL_APP --diag_suppress=68 --diag_suppress=188 --diag_suppress=111 --diag_suppress=546 --diag_suppress=177-I.\RTE\_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o 1\led.o --omf_browse 1\led.crf --depend 1\led.d)
-I (..\MyApplication\MyApplication.h)(0x62DB40DF)
+I (..\MyApplication\MyApplication.h)(0x62DB459B)
 I (../Core/Inc/main.h)(0x60FFC899)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x626D8092)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x62DB19DA)
@@ -12734,11 +12724,10 @@ I (..\LVGL\src/extra/libs/rlottie/lv_rlottie.h)(0x61F7D6C6)
 I (..\LVGL\src/extra/libs/ffmpeg/lv_ffmpeg.h)(0x61F7D6C6)
 I (..\LVGL\examples\porting\lv_port_disp.h)(0x62DB3D0A)
 I (..\LVGL\examples\porting\lv_port_indev.h)(0x62DB3D0A)
-I (..\LVGL_APP\OscInterface.h)(0x62D4999D)
-I (..\LVGL_APP\OscStyle.h)(0x62CA9D5C)
-I (..\LVGL_APP\OscDefine.h)(0x62D6D657)
+I (..\LVGL_APP\OscInterface.h)(0x62DB46B6)
+I (..\LVGL_APP\OscStyle.h)(0x62D053DC)
 F (..\MyApplication\Timer6.c)(0x62D9F97C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../MyApplication -I ../SYSTEM -I ../TOUCH -I ..\LVGL -I ..\LVGL\src -I ..\LVGL\examples\porting -I ..\LVGL_APP --diag_suppress=68 --diag_suppress=188 --diag_suppress=111 --diag_suppress=546 --diag_suppress=177-I.\RTE\_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o 1\timer6.o --omf_browse 1\timer6.crf --depend 1\timer6.d)
-I (..\MyApplication\MyApplication.h)(0x62DB40DF)
+I (..\MyApplication\MyApplication.h)(0x62DB459B)
 I (../Core/Inc/main.h)(0x60FFC899)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x626D8092)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x62DB19DA)
@@ -12919,9 +12908,8 @@ I (..\LVGL\src/extra/libs/rlottie/lv_rlottie.h)(0x61F7D6C6)
 I (..\LVGL\src/extra/libs/ffmpeg/lv_ffmpeg.h)(0x61F7D6C6)
 I (..\LVGL\examples\porting\lv_port_disp.h)(0x62DB3D0A)
 I (..\LVGL\examples\porting\lv_port_indev.h)(0x62DB3D0A)
-I (..\LVGL_APP\OscInterface.h)(0x62D4999D)
-I (..\LVGL_APP\OscStyle.h)(0x62CA9D5C)
-I (..\LVGL_APP\OscDefine.h)(0x62D6D657)
+I (..\LVGL_APP\OscInterface.h)(0x62DB46B6)
+I (..\LVGL_APP\OscStyle.h)(0x62D053DC)
 F (..\LVGL\examples\porting\lv_port_disp.c)(0x62DB3E86)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../MyApplication -I ../SYSTEM -I ../TOUCH -I ..\LVGL -I ..\LVGL\src -I ..\LVGL\examples\porting -I ..\LVGL_APP --diag_suppress=68 --diag_suppress=188 --diag_suppress=111 --diag_suppress=546 --diag_suppress=177-I.\RTE\_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o 1\lv_port_disp.o --omf_browse 1\lv_port_disp.crf --depend 1\lv_port_disp.d)
 I (..\LVGL\examples\porting\lv_port_disp.h)(0x62DB3D0A)
 I (..\LVGL\lvgl.h)(0x61F7D6C6)
@@ -13242,8 +13230,8 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x626D8092)
 I (../TOUCH/ott2001a.h)(0x5438EE64)
 I (../TOUCH/gt9147.h)(0x555711A6)
 I (../TOUCH/ft5206.h)(0x547D6C72)
-F (..\..\LVGL-8.3\LVGL_APP\OscBtnCallBack.c)(0x62DB3507)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../MyApplication -I ../SYSTEM -I ../TOUCH -I ..\LVGL -I ..\LVGL\src -I ..\LVGL\examples\porting -I ..\LVGL_APP --diag_suppress=68 --diag_suppress=188 --diag_suppress=111 --diag_suppress=546 --diag_suppress=177-I.\RTE\_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o 1\oscbtncallback.o --omf_browse 1\oscbtncallback.crf --depend 1\oscbtncallback.d)
-I (..\..\LVGL-8.3\LVGL_APP\OscInterface.h)(0x62D4999D)
+F (..\LVGL_APP\OscBtnCallBack.c)(0x62DB4611)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../MyApplication -I ../SYSTEM -I ../TOUCH -I ..\LVGL -I ..\LVGL\src -I ..\LVGL\examples\porting -I ..\LVGL_APP --diag_suppress=68 --diag_suppress=188 --diag_suppress=111 --diag_suppress=546 --diag_suppress=177-I.\RTE\_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o 1\oscbtncallback.o --omf_browse 1\oscbtncallback.crf --depend 1\oscbtncallback.d)
+I (..\LVGL_APP\OscInterface.h)(0x62DB46B6)
 I (..\LVGL\lvgl.h)(0x61F7D6C6)
 I (..\LVGL\src/misc/lv_log.h)(0x61F7D6C6)
 I (..\LVGL\src/misc/../lv_conf_internal.h)(0x61F7D6C6)
@@ -13366,72 +13354,9 @@ I (..\LVGL\src/extra/libs/sjpg/lv_sjpg.h)(0x61F7D6C6)
 I (..\LVGL\src/extra/libs/freetype/lv_freetype.h)(0x61F7D6C6)
 I (..\LVGL\src/extra/libs/rlottie/lv_rlottie.h)(0x61F7D6C6)
 I (..\LVGL\src/extra/libs/ffmpeg/lv_ffmpeg.h)(0x61F7D6C6)
-I (..\..\LVGL-8.3\LVGL_APP\OscStyle.h)(0x62CA9D5C)
-I (..\..\LVGL-8.3\LVGL_APP\OscDefine.h)(0x62DB3231)
-I (../MyApplication/MyApplication.h)(0x62DB40DF)
-I (../Core/Inc/main.h)(0x60FFC899)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x626D8092)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x62DB19DA)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x626D8092)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x626D8092)
-I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x626D8068)
-I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x626D8068)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x626D806C)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x626D806C)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x626D806C)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x626D806C)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x626D806C)
-I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x626D8068)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x626D8092)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x626D8092)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x626D8092)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x626D8092)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x626D8092)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x626D8092)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x626D8092)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x626D8092)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x626D8092)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x626D8092)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x626D8092)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h)(0x626D8092)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h)(0x626D8092)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h)(0x626D8092)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x626D8092)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x626D8092)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x626D8092)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x626D8092)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x626D8092)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x626D8092)
-I (../Core/Inc/i2c.h)(0x62C038B7)
-I (../Core/Inc/tim.h)(0x62DB19D9)
-I (../Core/Inc/usart.h)(0x62C038B7)
-I (../Core/Inc/gpio.h)(0x62C038B6)
-I (../Core/Inc/fsmc.h)(0x62C038B7)
-I (../SYSTEM/delay.h)(0x58E5F540)
-I (../SYSTEM/sys.h)(0x58E5F532)
-I (../TOUCH/myiic.h)(0x58EF49DE)
-I (../TOUCH/ctiic.h)(0x53F6BB18)
-I (../TOUCH/24cxx.h)(0x5710F979)
-I (../TOUCH/ft5206.h)(0x547D6C72)
-I (../TOUCH/gt9147.h)(0x555711A6)
-I (../TOUCH/ott2001a.h)(0x5438EE64)
-I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
-I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
-I (../MyApplication/System.h)(0x5F3401AA)
-I (../MyApplication/Public.h)(0x5F33FE1F)
-I (../MyApplication/MyInit.h)(0x5EAA3095)
-I (../MyApplication/LED.h)(0x5F4DB961)
-I (../MyApplication/KEY.h)(0x60FFC152)
-I (../TOUCH/lcd.h)(0x58F598B3)
-I (../TOUCH/touch.h)(0x55571366)
-I (../MyApplication/Timer6.h)(0x62D9F97C)
-I (..\LVGL\examples\porting\lv_port_disp.h)(0x62DB3D0A)
-I (..\LVGL\examples\porting\lv_port_indev.h)(0x62DB3D0A)
-I (..\LVGL_APP\OscInterface.h)(0x62D4999D)
-I (..\LVGL_APP\OscDefine.h)(0x62D6D657)
-I (..\LVGL_APP\OscStyle.h)(0x62CA9D5C)
-F (..\..\LVGL-8.3\LVGL_APP\OscChartCallBack.c)(0x62D569C1)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../MyApplication -I ../SYSTEM -I ../TOUCH -I ..\LVGL -I ..\LVGL\src -I ..\LVGL\examples\porting -I ..\LVGL_APP --diag_suppress=68 --diag_suppress=188 --diag_suppress=111 --diag_suppress=546 --diag_suppress=177-I.\RTE\_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o 1\oscchartcallback.o --omf_browse 1\oscchartcallback.crf --depend 1\oscchartcallback.d)
-I (..\..\LVGL-8.3\LVGL_APP\OscInterface.h)(0x62D4999D)
+I (..\LVGL_APP\OscStyle.h)(0x62D053DC)
+F (..\LVGL_APP\OscChartCallBack.c)(0x62D073FC)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../MyApplication -I ../SYSTEM -I ../TOUCH -I ..\LVGL -I ..\LVGL\src -I ..\LVGL\examples\porting -I ..\LVGL_APP --diag_suppress=68 --diag_suppress=188 --diag_suppress=111 --diag_suppress=546 --diag_suppress=177-I.\RTE\_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o 1\oscchartcallback.o --omf_browse 1\oscchartcallback.crf --depend 1\oscchartcallback.d)
+I (..\LVGL_APP\OscInterface.h)(0x62DB46B6)
 I (..\LVGL\lvgl.h)(0x61F7D6C6)
 I (..\LVGL\src/misc/lv_log.h)(0x61F7D6C6)
 I (..\LVGL\src/misc/../lv_conf_internal.h)(0x61F7D6C6)
@@ -13554,10 +13479,9 @@ I (..\LVGL\src/extra/libs/sjpg/lv_sjpg.h)(0x61F7D6C6)
 I (..\LVGL\src/extra/libs/freetype/lv_freetype.h)(0x61F7D6C6)
 I (..\LVGL\src/extra/libs/rlottie/lv_rlottie.h)(0x61F7D6C6)
 I (..\LVGL\src/extra/libs/ffmpeg/lv_ffmpeg.h)(0x61F7D6C6)
-I (..\..\LVGL-8.3\LVGL_APP\OscStyle.h)(0x62CA9D5C)
-F (..\..\LVGL-8.3\LVGL_APP\OscDefine.h)(0x62DB3231)()
-F (..\..\LVGL-8.3\LVGL_APP\OscInterface.c)(0x62D58110)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../MyApplication -I ../SYSTEM -I ../TOUCH -I ..\LVGL -I ..\LVGL\src -I ..\LVGL\examples\porting -I ..\LVGL_APP --diag_suppress=68 --diag_suppress=188 --diag_suppress=111 --diag_suppress=546 --diag_suppress=177-I.\RTE\_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o 1\oscinterface.o --omf_browse 1\oscinterface.crf --depend 1\oscinterface.d)
-I (..\..\LVGL-8.3\LVGL_APP\OscInterface.h)(0x62D4999D)
+I (..\LVGL_APP\OscStyle.h)(0x62D053DC)
+F (..\LVGL_APP\OscInterface.c)(0x62DB46B6)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../MyApplication -I ../SYSTEM -I ../TOUCH -I ..\LVGL -I ..\LVGL\src -I ..\LVGL\examples\porting -I ..\LVGL_APP --diag_suppress=68 --diag_suppress=188 --diag_suppress=111 --diag_suppress=546 --diag_suppress=177-I.\RTE\_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o 1\oscinterface.o --omf_browse 1\oscinterface.crf --depend 1\oscinterface.d)
+I (..\LVGL_APP\OscInterface.h)(0x62DB46B6)
 I (..\LVGL\lvgl.h)(0x61F7D6C6)
 I (..\LVGL\src/misc/lv_log.h)(0x61F7D6C6)
 I (..\LVGL\src/misc/../lv_conf_internal.h)(0x61F7D6C6)
@@ -13680,9 +13604,9 @@ I (..\LVGL\src/extra/libs/sjpg/lv_sjpg.h)(0x61F7D6C6)
 I (..\LVGL\src/extra/libs/freetype/lv_freetype.h)(0x61F7D6C6)
 I (..\LVGL\src/extra/libs/rlottie/lv_rlottie.h)(0x61F7D6C6)
 I (..\LVGL\src/extra/libs/ffmpeg/lv_ffmpeg.h)(0x61F7D6C6)
-I (..\..\LVGL-8.3\LVGL_APP\OscStyle.h)(0x62CA9D5C)
-F (..\..\LVGL-8.3\LVGL_APP\OscInterface.h)(0x62D4999D)()
-F (..\..\LVGL-8.3\LVGL_APP\OscLogo.c)(0x62DB3231)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../MyApplication -I ../SYSTEM -I ../TOUCH -I ..\LVGL -I ..\LVGL\src -I ..\LVGL\examples\porting -I ..\LVGL_APP --diag_suppress=68 --diag_suppress=188 --diag_suppress=111 --diag_suppress=546 --diag_suppress=177-I.\RTE\_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o 1\osclogo.o --omf_browse 1\osclogo.crf --depend 1\osclogo.d)
+I (..\LVGL_APP\OscStyle.h)(0x62D053DC)
+F (..\LVGL_APP\OscInterface.h)(0x62DB46B6)()
+F (..\LVGL_APP\OscLogo.c)(0x62DB459B)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../MyApplication -I ../SYSTEM -I ../TOUCH -I ..\LVGL -I ..\LVGL\src -I ..\LVGL\examples\porting -I ..\LVGL_APP --diag_suppress=68 --diag_suppress=188 --diag_suppress=111 --diag_suppress=546 --diag_suppress=177-I.\RTE\_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o 1\osclogo.o --omf_browse 1\osclogo.crf --depend 1\osclogo.d)
 I (..\LVGL\lvgl.h)(0x61F7D6C6)
 I (..\LVGL\src/misc/lv_log.h)(0x61F7D6C6)
 I (..\LVGL\src/misc/../lv_conf_internal.h)(0x61F7D6C6)
@@ -13805,8 +13729,8 @@ I (..\LVGL\src/extra/libs/sjpg/lv_sjpg.h)(0x61F7D6C6)
 I (..\LVGL\src/extra/libs/freetype/lv_freetype.h)(0x61F7D6C6)
 I (..\LVGL\src/extra/libs/rlottie/lv_rlottie.h)(0x61F7D6C6)
 I (..\LVGL\src/extra/libs/ffmpeg/lv_ffmpeg.h)(0x61F7D6C6)
-F (..\..\LVGL-8.3\LVGL_APP\OscStyle.c)(0x62CC124E)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../MyApplication -I ../SYSTEM -I ../TOUCH -I ..\LVGL -I ..\LVGL\src -I ..\LVGL\examples\porting -I ..\LVGL_APP --diag_suppress=68 --diag_suppress=188 --diag_suppress=111 --diag_suppress=546 --diag_suppress=177-I.\RTE\_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o 1\oscstyle.o --omf_browse 1\oscstyle.crf --depend 1\oscstyle.d)
-I (..\..\LVGL-8.3\LVGL_APP\OscStyle.h)(0x62CA9D5C)
+F (..\LVGL_APP\OscStyle.c)(0x62D053D6)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../MyApplication -I ../SYSTEM -I ../TOUCH -I ..\LVGL -I ..\LVGL\src -I ..\LVGL\examples\porting -I ..\LVGL_APP --diag_suppress=68 --diag_suppress=188 --diag_suppress=111 --diag_suppress=546 --diag_suppress=177-I.\RTE\_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IE:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o 1\oscstyle.o --omf_browse 1\oscstyle.crf --depend 1\oscstyle.d)
+I (..\LVGL_APP\OscStyle.h)(0x62D053DC)
 I (..\LVGL\lvgl.h)(0x61F7D6C6)
 I (..\LVGL\src/misc/lv_log.h)(0x61F7D6C6)
 I (..\LVGL\src/misc/../lv_conf_internal.h)(0x61F7D6C6)
@@ -13929,5 +13853,5 @@ I (..\LVGL\src/extra/libs/sjpg/lv_sjpg.h)(0x61F7D6C6)
 I (..\LVGL\src/extra/libs/freetype/lv_freetype.h)(0x61F7D6C6)
 I (..\LVGL\src/extra/libs/rlottie/lv_rlottie.h)(0x61F7D6C6)
 I (..\LVGL\src/extra/libs/ffmpeg/lv_ffmpeg.h)(0x61F7D6C6)
-I (..\..\LVGL-8.3\LVGL_APP\OscInterface.h)(0x62D4999D)
-F (..\..\LVGL-8.3\LVGL_APP\OscStyle.h)(0x62CA9D5C)()
+I (..\LVGL_APP\OscInterface.h)(0x62DB46B6)
+F (..\LVGL_APP\OscStyle.h)(0x62D053DC)()

@@ -36,7 +36,6 @@
 #include "lv_port_indev.h"
 /*≤‚ ‘¥˙¬Î*/
 #include "OscInterface.h"
-#include "OscDefine.h"
 #include "OscStyle.h"
 #endif
 /********************************************************
