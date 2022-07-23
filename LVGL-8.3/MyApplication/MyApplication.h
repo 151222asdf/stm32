@@ -5,10 +5,10 @@
 /*MAIN函数文件*/
 #include "main.h"
 #include "i2c.h"
+#include "tim.h"
 #include "usart.h"
 #include "gpio.h"
 #include "fsmc.h"
-#include "math.h"
 /*正点原子*/
 #include "delay.h"
 #include "sys.h"
@@ -29,6 +29,14 @@
 #include "KEY.h"
 #include "lcd.h"
 #include "touch.h"
+#include "Timer6.h"
+/*GUI显示界面头文件设定*/
+#include "lvgl.h"
+#include "lv_port_disp.h"
+#include "lv_port_indev.h"
+/*408GUI界面实例*/
+#include "OscInterface.h"
+#include "OscStyle.h"
 #endif
 /********************************************************
   End Of File
